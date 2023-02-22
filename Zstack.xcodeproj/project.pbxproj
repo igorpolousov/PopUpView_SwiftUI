@@ -39,6 +39,7 @@
 		C2AF5F2029A6259F008B075A = {
 			isa = PBXGroup;
 			children = (
+				C2C60DCB29A64BAC00825B50 /* README.md */,
 				C2AF5F2B29A6259F008B075A /* Zstack */,
 				C2AF5F2A29A6259F008B075A /* Products */,
 			);
@@ -61,7 +62,6 @@
 				C2AF5F3A29A625CE008B075A /* PopUpView.swift */,
 				C2AF5F3029A625A0008B075A /* Assets.xcassets */,
 				C2AF5F3229A625A0008B075A /* Preview Content */,
-				C2C60DCB29A64BAC00825B50 /* README.md */,
 			);
 			path = Zstack;
 			sourceTree = "<group>";
