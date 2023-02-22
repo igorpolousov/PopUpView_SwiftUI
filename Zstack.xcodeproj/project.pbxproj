@@ -22,7 +22,7 @@
 		C2AF5F3329A625A0008B075A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		C2AF5F3A29A625CE008B075A /* PopUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopUpView.swift; sourceTree = "<group>"; };
 		C2AF5F3E29A63482008B075A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
-		C2C60DCB29A64BAC00825B50 /* PopUpView_SwiftUI.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = PopUpView_SwiftUI.md; sourceTree = "<group>"; };
+		C2C60DCB29A64BAC00825B50 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,7 +61,7 @@
 				C2AF5F3A29A625CE008B075A /* PopUpView.swift */,
 				C2AF5F3029A625A0008B075A /* Assets.xcassets */,
 				C2AF5F3229A625A0008B075A /* Preview Content */,
-				C2C60DCB29A64BAC00825B50 /* PopUpView_SwiftUI.md */,
+				C2C60DCB29A64BAC00825B50 /* README.md */,
 			);
 			path = Zstack;
 			sourceTree = "<group>";
