@@ -27,6 +27,7 @@ struct ContentView: View {
                     .frame(height: 80)
                 
                 Button("Touch me") {
+                    // Add animation for present popUPView
                     withAnimation(.easeInOut(duration: 0.2)) {
                         isShowingPopUpView.toggle()
                     }
@@ -39,7 +40,8 @@ struct ContentView: View {
                 }
             }
             .padding()
-
+             
+            // Condition to show/hide popUpView
             if isShowingPopUpView {
                 PopUpView(isShowingPopUpView: $isShowingPopUpView, text: $text)
                     

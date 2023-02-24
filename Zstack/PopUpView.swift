@@ -9,26 +9,31 @@ import SwiftUI
 
 struct PopUpView: View {
     
+    // Variable for show/hide popUpView
     @Binding var isShowingPopUpView: Bool
+    // Varialble to pass data from popUpView to Content view
     @Binding var text: String 
     
     var body: some View {
         
+        // Background with opacity to popUpView
         ZStack {
             Color(.darkGray)
                 .opacity(0.6)
                 .edgesIgnoringSafeArea(.vertical)
             
+            // PopUpView
             ZStack(alignment: .center) {
                 
                 GeometryReader { proxi in
                     ZStack {
+                        // Blue rectangle
                         RoundedRectangle(cornerRadius: 10)
                             .foregroundColor(.blue)
                             .frame(width: proxi.size.width - 20, height: proxi.size.height / 3.5)
                             .padding(.leading, 10)
                             .padding(.top, proxi.size.height / 7)
-                        
+                        // Text and textfield forms over blue rectangle
                         VStack(alignment: .leading) {
                             Text(" Add some text")
                                 .font(.largeTitle)
@@ -39,8 +44,9 @@ struct PopUpView: View {
                             
                             HStack() {
                                 Spacer()
-                                
+                                // Action button (any code)
                                 Button("Hide me") {
+                                    // Animation for dismissing popUpView
                                     withAnimation(.easeInOut(duration: 0.2)) {
                                         isShowingPopUpView.toggle()
                                     }
