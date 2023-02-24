@@ -9,7 +9,9 @@ import SwiftUI
 
 struct ContentView: View {
     
+    // Show/Hide PopUpView
     @State var isShowingPopUpView: Bool = false
+    // Pass text data from/to PopUpView
     @State var text: String = ""
     
     var body: some View {
