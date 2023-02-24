@@ -11,6 +11,8 @@
 
 4. Add to PopUpView variables(for passing new variables values back to main view):
   - the same variables as you add in main view with  @Binding var: Bool, @Binding var: String etc
+  
+5. Add animation to show/hide PopUpView  
 
 Below you can see example video how doea it works. 
 
